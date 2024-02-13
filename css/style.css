@@ -85,10 +85,12 @@ header{
     top: 0;
     width: 100%;
     background-color: var(--color-nav);
+    z-index: 1001;
 }
 
 nav{
     padding: 10px; 
+    
 }
 
 nav ul li{
@@ -112,6 +114,8 @@ nav div img{
 /* main */
 main{
     width: 100%;
+    margin-top: 150px;
+
 }
 
 .card{
