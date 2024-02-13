@@ -122,6 +122,20 @@ main{
 main img{
     width: 100%;
 }
+.secondary-image{
+    display: none;
+}
+
+.card:hover .main-image{
+    display:none;
+}
+.card:hover .secondary-image{
+    display:block;
+}
+.swaping:hover{
+    display: none;
+    width: 100%
+}
 
 .card-image-top{
 position: relative;
