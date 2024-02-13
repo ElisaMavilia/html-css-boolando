@@ -70,6 +70,9 @@ body{
 .justify-flex-star{
     justify-content: flex-start;
 }
+.wrap{
+    flex-wrap: wrap;
+}
 
 /* header */
 header{
@@ -125,7 +128,20 @@ position: relative;
 }
 
 .card-text-bottom{
+}
 
+.brand-text{
+    color: grey;
+    font-size: 12px;
+}
+
+.red-text{
+    color: var(--color-red-badge);
+}
+
+.line-through{
+    text-decoration: line-through;
+    color: var(--color-black);
 }
 
 /* footer */
