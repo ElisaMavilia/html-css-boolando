@@ -12,6 +12,15 @@
     box-sizing: border-box;
 }
 
+/* general */
+.container{
+    max-width:1200px;
+    margin:20px auto;
+    padding: 20px 30px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 /* utility colors */
 :root {
 	--color-nav: #ff6900;
@@ -95,14 +104,28 @@ nav div img{
     display: inline-block;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
 
 /* main */
 main{
     width: 100%;
+}
+
+.card{
+    width: calc(100% / 3 - 10px);
+    cursor:pointer;
+}
+
+main img{
+    width: 100%;
+}
+
+.card-image-top{
+position: relative;
+}
+
+.card-text-bottom{
+
 }
 
 /* footer */
