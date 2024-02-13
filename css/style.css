@@ -1,0 +1,20 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility colors */
+:root {
+	--color-nav: #ff6900;
+	--color-text-nav: #e7e6e5;
+	--color-green-badge: #008000;
+	--color-red-badge: #ff0000;
+	--color-black: #1a1a1a;
+	--color-text-footer: #ffffff;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
