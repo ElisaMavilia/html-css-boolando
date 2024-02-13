@@ -181,6 +181,13 @@ left: 35px;
 background-color: var(--color-green-badge);
 }
 
+.badge-green-alone{
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    background-color: var(--color-green-badge);
+    }
+
 
 
 /* footer */
