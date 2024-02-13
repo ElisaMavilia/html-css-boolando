@@ -89,8 +89,7 @@ header{
 }
 
 nav{
-    padding: 10px; 
-    
+    padding: 5px; 
 }
 
 nav ul li{
@@ -115,7 +114,6 @@ nav div img{
 main{
     width: 100%;
     margin-top: 150px;
-
 }
 
 .card{
@@ -161,6 +159,29 @@ position: relative;
     text-decoration: line-through;
     color: var(--color-black);
 }
+
+.badge{
+    color: var(--color-text-footer);
+    text-align: right;
+    padding: 4px;
+    font-size: 12px;
+}
+
+.badge-red{
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    background-color: var(--color-red-badge);
+}
+
+.badge-green{
+position: absolute;
+bottom: 30px;
+left: 35px;
+background-color: var(--color-green-badge);
+}
+
+
 
 /* footer */
 footer{
