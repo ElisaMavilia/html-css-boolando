@@ -22,6 +22,12 @@
 	--color-text-footer: #ffffff;
 }
 
+/* icons */
+.fa-user, .fa-heart, .fa-bag-shopping{
+    color: var(--color-text-nav);
+    padding: 5px;
+}
+
 /* body */
 body{
     font-family: "Roboto", sans-serif;
@@ -40,18 +46,41 @@ body{
     flex-direction: row;
 }
 
+.align-items{
+    align-items: center;
+}
+
+.align-content{
+    align-content: center;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-flex-star{
+    justify-content: flex-start;
+}
+
 /* header */
 header{
     width: 100%;
     background-color: var(--color-nav);
 }
 
+.scroll{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--color-nav);
+}
+
 nav{
-    padding: 10px;
+    padding: 10px; 
 }
 
 nav ul li{
-padding: 0px 20px 0px 20px;  
+padding: 0px 10px 0px 10px;  
 list-style: none;
 }
 
@@ -62,11 +91,18 @@ list-style: none;
 
 nav div img{
     width: 15%;
+    text-align: center;
+    display: inline-block;
 }
 
 .container{
     max-width: 1200px;
     margin: 0 auto;
+}
+
+/* main */
+main{
+    width: 100%;
 }
 
 /* footer */
