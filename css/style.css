@@ -108,6 +108,7 @@ header{
 
 nav{
     padding: 5px; 
+    position: relative;
 }
 
 nav ul li{
@@ -123,7 +124,10 @@ list-style: none;
 nav div img{
     width: 15%;
     text-align: center;
-    display: inline-block;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+
 }
 
 
